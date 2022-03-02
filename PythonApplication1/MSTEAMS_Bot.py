@@ -91,11 +91,9 @@ def logout():
     browser.find_element(By.XPATH, '//*[@id="logout-button"]').click()
     time.sleep(4)
     tab()
-    """
     f = input('\t\t\tDID U LIKE IT??!?!(y/n)\n\t\t\t\t')
     if(f=='y'): print('\t\t\tTHANK YOU!!')
     if(f=='n'): print('\t\t\tCOOL, NP :)')
-    """
     browser.quit()
     exit()
 
